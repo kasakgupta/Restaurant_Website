@@ -142,64 +142,60 @@ mysqli_close($conn);
     <div class="food-menu-container container">
       <div class="food-menu-item">
         <div class="food-img">
-          <img src="https://www.foodiesfeed.com/wp-content/uploads/2023/06/boiled-eggs-on-a-plate.jpg" alt="" />
+          <img src="https://img.freepik.com/premium-photo/indian-food-square-post_1032986-201038.jpg" alt="" />
         </div>
         <div class="food-description">
-          <h2 class="food-title">Egg Delights</h2>
+          <h2 class="food-title">Indian Cuisine</h2>
           <p>
-            From spicy masala omelets to creamy buttery egg curries, dive into
-            our range of flavorful egg dishes straight from Indian kitchens.
+          Indian cuisine is a rich blend of spices, flavors, and regional traditions.
+           From aromatic curries to tangy dosas, each dish offers a unique, unforgettable taste experience.
           </p>
           <p class="food-price">Price: &#8377; 55</p>
-          <a href="https://www.zomato.com/ncr/the-egg-company-1-rohini-new-delhi" target="_blank"> <button class="order-btn">Order</button> </a>
+          <a href="https://www.zomato.com/ncr/the-egg-company-1-rohini-new-delhi" target="_blank"> <button class="order-btn">Explore</button> </a>
         </div>
       </div>
 
       <div class="food-menu-item">
         <div class="food-img">
-          <img src="https://assets.gqindia.com/photos/6213cbed18140d747a9b0a6e/16:9/w_1920,h_1080,c_limit/new%20restaurant%20menus%20in%20Mumbai.jpg" alt="error" />
+          <img src="https://thumbs.dreamstime.com/b/italian-food-table-image-shows-full-delicious-theres-pizza-pasta-bread-more-all-arranged-beautiful-appetizing-323626017.jpg" alt="error" />
         </div>
         <div class="food-description">
-          <h2 class="food-title">Noodle Nirvana</h2>
+          <h2 class="food-title">Italian Cuisine</h2>
           <p>
-            Embrace the aromatic spices and rich sauces in our desi-style
-            noodles, inspired by the vibrant street food culture of India.
+          Italian cuisine is all about fresh ingredients and simple, rich flavors. From pasta and pizza to risotto, each dish is a celebration of tradition and taste.
           </p>
           <p class="food-price">Price: &#8377; 430</p>
-          <a href="https://www.zomato.com/ncr/oodles-noodles-malviya-nagar-new-delhi" target="_blank"> <button class="order-btn">Order</button> </a>
+          <a href="https://www.zomato.com/ncr/oodles-noodles-malviya-nagar-new-delhi" target="_blank"> <button class="order-btn">Explore</button> </a>
 
         </div>
       </div>
       <div class="food-menu-item">
         <div class="food-img">
-          <img src="https://blog.dineout-cdn.co.in/blog/wp-content/uploads/2019/10/Blog-10-1030x538.jpg" alt="" />
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKUZGiNnFa6F6H7hhw6SuVMm1wqJZtOthv6g&s" alt="" />
         </div>
         <div class="food-description">
-          <h2 class="food-title">Royal Thali Feast</h2>
+          <h2 class="food-title">Korean Cuisine</h2>
           <p>
-            Indulge in an opulent spread with our Royal Thali, a regal
-            assortment of diverse Indian flavors and regional specialties.
+          Korean cuisine is known for its bold flavors, featuring dishes like bulgogi and kimchi jjigae. It combines spicy, savory, and tangy elements, often served with a variety of banchan (side dishes)
           </p>
 
           <p class="food-price">Price: &#8377; 99</p>
 
-          <a href="https://www.zomato.com/ncr/royal-thalis-new-ashok-nagar-noida" target="_blank"> <button class="order-btn">Order</button> </a>
+          <a href="https://www.zomato.com/ncr/royal-thalis-new-ashok-nagar-noida" target="_blank"> <button class="order-btn">Explore</button> </a>
 
         </div>
       </div>
       <div class="food-menu-item">
         <div class="food-img">
-          <img src="https://www.licious.in/blog/wp-content/uploads/2022/06/roast-chicken-750x750.jpg" alt="" />
+          <img src="https://www.shutterstock.com/image-photo/sumptuous-taco-feast-detailed-realistic-260nw-2472438793.jpg" alt="" />
         </div>
         <div class="food-description">
-          <h2 class="food-title">Tandoori Chicken</h2>
+          <h2 class="food-title">Mexican cuisine</h2>
           <p>
-            Relish the smoky, tender perfection of our Tandoori Chicken,
-            marinated with aromatic spices and cooked in a traditional clay
-            oven.
+          Mexican cuisine is vibrant and full of flavor, featuring dishes like tacos, enchiladas, and guacamole. With a blend of spices, herbs, and fresh ingredients, it offers a rich combination of savory, spicy, and tangy tastes.
           </p>
           <p class="food-price">Price: &#8377; 265</p>
-          <a href="https://www.zomato.com/ncr/indian-tandoori-chicken-vasundhara-enclave-new-delhi" target="_blank"> <button class="order-btn">Order</button> </a>
+          <a href="https://www.zomato.com/ncr/indian-tandoori-chicken-vasundhara-enclave-new-delhi" target="_blank"> <button class="order-btn">Explore</button> </a>
 
         </div>
       </div>
@@ -268,7 +264,7 @@ mysqli_close($conn);
           cozy, and the staff was incredibly friendly. Definitely coming
           back!" 
         </p> -->
-      </div>
+      <!-- </div>
       <div class="testimonial-box">
         <div class="customer-detail">
           <div class="customer-photo">
@@ -288,7 +284,7 @@ mysqli_close($conn);
           the menu. The staff was attentive, and the food was served promptly.
           The only suggestion would be to add more vegetarian options."
         </p>
-      </div>
+      </div> -->
       <div class="testimonial-box">
         <div class="customer-detail">
           <div class="customer-photo">
@@ -300,8 +296,8 @@ mysqli_close($conn);
           <span class="fa fa-star checked"></span>
           <span class="fa fa-star checked"></span>
           <span class="fa fa-star checked"></span>
-          <span class="fa fa-star "></span>
-          <span class="fa fa-star "></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
         </div>
         <p class="testimonial-text">
           "Great place for a casual hangout! Loved the variety of dishes on
@@ -313,7 +309,7 @@ mysqli_close($conn);
         <div class="customer-detail">
           <div class="customer-photo">
             <img src="../Images/Customer 3.jpg" alt="" />
-            <p class="customer-name">Aditya Gautam</p>
+            <p class="customer-name">Kiran Arya</p>
           </div>
         </div>
         <div class="star-rating">
@@ -333,7 +329,7 @@ mysqli_close($conn);
         <div class="customer-detail">
           <div class="customer-photo">
             <img src="../Images/Customer 5.jpg" alt="" />
-            <p class="customer-name">Sudhanshu</p>
+            <p class="customer-name">Diksha</p>
           </div>
         </div>
         <div class="star-rating">

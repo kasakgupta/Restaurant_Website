@@ -36,7 +36,7 @@
         text-align: center;
         background-image: linear-gradient(rgba(0, 0, 0, 0.3),
                 rgba(0, 0, 0, 0.3)),
-            url(https://media.istockphoto.com/id/1472620857/photo/tasty-butter-chicken-curry-dish-from-indian-cuisine.jpg?s=612x612&w=0&k=20&c=7Lf1Qrwj7sY31LuzbO9u8KMFuoUo96SwOvxz5YL_Slw=);
+            url(https://cdn.mos.cms.futurecdn.net/L5LwYrPzK5MvxTVFT9yq2d.jpg);
         background-repeat: no-repeat;
         background-size: 100% auto;
         background-attachment: fixed;
