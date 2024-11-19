@@ -187,10 +187,10 @@ mysqli_close($conn);
       </div>
       <div class="food-menu-item">
         <div class="food-img">
-          <img src="https://www.shutterstock.com/image-photo/sumptuous-taco-feast-detailed-realistic-260nw-2472438793.jpg" alt="" />
+          <img src="https://holytequila.com/wp-content/uploads/2022/05/history-of-mexican-food.jpg" alt="" />
         </div>
         <div class="food-description">
-          <h2 class="food-title">Mexican cuisine</h2>
+          <h2 class="food-title">Mexican Cuisine</h2>
           <p>
           Mexican cuisine is vibrant and full of flavor, featuring dishes like tacos, enchiladas, and guacamole. With a blend of spices, herbs, and fresh ingredients, it offers a rich combination of savory, spicy, and tangy tastes.
           </p>
@@ -201,18 +201,16 @@ mysqli_close($conn);
       </div>
       <div class="food-menu-item">
         <div class="food-img">
-          <img src="https://images.deliveryhero.io/image/fd-bd/LH/a0vv-hero.jpg" alt="" />
+          <img src="https://www.thespruceeats.com/thmb/D9hctWPH31A5oiQ34J4Hknc6x0Y=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-1042998066-518ca1d7f2804eb09039e9e42e91667c.jpg" alt="" />
         </div>
         <div class="food-description">
-          <h2 class="food-title">Sizzling Pizza Fusion</h2>
+          <h2 class="food-title">Thai Cuisine</h2>
 
           <p>
-            Experience a fusion of Indian flavors on a crispy crust with our
-            unique selection of locally-inspired pizzas topped with spicy
-            masalas and fresh herbs.
+          Thai cuisine is known for its bold flavors, balancing sweet, sour, spicy, and savory. Popular dishes like pad thai, green curry, and tom yum soup highlight fresh herbs, spices, and vibrant ingredients.
           </p>
           <p class="food-price">Price: &#8377; 350</p>
-          <a href="https://www.zomato.com/ncr/dominos-pizza-1-janakpuri-new-delhi" target="_blank"> <button class="order-btn">Order</button> </a>
+          <a href="https://www.zomato.com/ncr/dominos-pizza-1-janakpuri-new-delhi" target="_blank"> <button class="order-btn">Explore</button> </a>
 
         </div>
       </div>
@@ -221,14 +219,11 @@ mysqli_close($conn);
           <img src="https://sukhis.com/app/uploads/2022/04/image3-4.jpg" alt="" />
         </div>
         <div class="food-description">
-          <h2 class="food-title">South Indian Dosa</h2>
+          <h2 class="food-title">South Indian Cuisine</h2>
           <p>
-            Crispy, golden dosas served with zesty chutneys and flavorful
-            sambar, a tantalizing South Indian delight straight from our
-            griddle to your plate.
-          </p>
+          South Indian cuisine features flavorful dishes like dosa, idli, and sambar, with rice, lentils, and spices creating a balance of tangy, spicy, and savory flavors.
           <p class="food-price">Price: &#8377; 599</p>
-          <a href="https://www.zomato.com/ncr/south-indian-dosa-point-connaught-place-new-delhi" target="_blank"> <button class="order-btn">Order</button> </a>
+          <a href="https://www.zomato.com/ncr/south-indian-dosa-point-connaught-place-new-delhi" target="_blank"> <button class="order-btn">Explore</button> </a>
 
         </div>
       </div>
