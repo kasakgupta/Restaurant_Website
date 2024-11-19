@@ -151,7 +151,7 @@ mysqli_close($conn);
            From aromatic curries to tangy dosas, each dish offers a unique, unforgettable taste experience.
           </p>
           <p class="food-price">Price: &#8377; 55</p>
-          <a href="https://www.zomato.com/ncr/the-egg-company-1-rohini-new-delhi" target="_blank"> <button class="order-btn">Explore</button> </a>
+          <a href="../Menu Page/Sub_Menu Page/IndianCuisine.php" target="_blank"> <button class="order-btn">Explore</button> </a>
         </div>
       </div>
 
@@ -165,7 +165,7 @@ mysqli_close($conn);
           Italian cuisine is all about fresh ingredients and simple, rich flavors. From pasta and pizza to risotto, each dish is a celebration of tradition and taste.
           </p>
           <p class="food-price">Price: &#8377; 430</p>
-          <a href="https://www.zomato.com/ncr/oodles-noodles-malviya-nagar-new-delhi" target="_blank"> <button class="order-btn">Explore</button> </a>
+          <a href="../Menu Page/Sub_Menu Page/ItalianCuisine.php" target="_blank"> <button class="order-btn">Explore</button> </a>
 
         </div>
       </div>
@@ -181,7 +181,7 @@ mysqli_close($conn);
 
           <p class="food-price">Price: &#8377; 99</p>
 
-          <a href="https://www.zomato.com/ncr/royal-thalis-new-ashok-nagar-noida" target="_blank"> <button class="order-btn">Explore</button> </a>
+          <a href="../Menu Page/Sub_Menu Page/KoreanCuisine.php" target="_blank"> <button class="order-btn">Explore</button> </a>
 
         </div>
       </div>
@@ -195,7 +195,7 @@ mysqli_close($conn);
           Mexican cuisine is vibrant and full of flavor, featuring dishes like tacos, enchiladas, and guacamole. With a blend of spices, herbs, and fresh ingredients, it offers a rich combination of savory, spicy, and tangy tastes.
           </p>
           <p class="food-price">Price: &#8377; 265</p>
-          <a href="https://www.zomato.com/ncr/indian-tandoori-chicken-vasundhara-enclave-new-delhi" target="_blank"> <button class="order-btn">Explore</button> </a>
+          <a href="../Menu Page/Sub_Menu Page/MexicanCuisine.php" target="_blank"> <button class="order-btn">Explore</button> </a>
 
         </div>
       </div>
@@ -210,7 +210,7 @@ mysqli_close($conn);
           Thai cuisine is known for its bold flavors, balancing sweet, sour, spicy, and savory. Popular dishes like pad thai, green curry, and tom yum soup highlight fresh herbs, spices, and vibrant ingredients.
           </p>
           <p class="food-price">Price: &#8377; 350</p>
-          <a href="https://www.zomato.com/ncr/dominos-pizza-1-janakpuri-new-delhi" target="_blank"> <button class="order-btn">Explore</button> </a>
+          <a href="../Menu Page/Sub_Menu Page/ThaiCuisine.php" target="_blank"> <button class="order-btn">Explore</button> </a>
 
         </div>
       </div>
@@ -223,7 +223,7 @@ mysqli_close($conn);
           <p>
           South Indian cuisine features flavorful dishes like dosa, idli, and sambar, with rice, lentils, and spices creating a balance of tangy, spicy, and savory flavors.
           <p class="food-price">Price: &#8377; 599</p>
-          <a href="https://www.zomato.com/ncr/south-indian-dosa-point-connaught-place-new-delhi" target="_blank"> <button class="order-btn">Explore</button> </a>
+          <a href="../Menu Page/Sub_Menu Page/SouthIndianCuisine.php" target="_blank"> <button class="order-btn">Explore</button> </a>
 
         </div>
       </div>
