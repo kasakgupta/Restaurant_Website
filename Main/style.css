@@ -12,6 +12,26 @@
 body {
   font-family: "Poppins", sans-serif;
 }
+
+
+/* search function */
+.search-container {
+  text-align: center;
+  margin: 20px 0;
+}
+
+#search-bar {
+  padding: 10px;
+  width: 300px;
+  font-size: 16px;
+}
+
+#search-button {
+  padding: 10px;
+  font-size: 16px;
+  color: blue;
+}
+
 /* ///////////..utility classes../////////// */
 .container {
   max-width: 1200px;
@@ -637,3 +657,4 @@ body {
     height: 50vmax;
   }
 }
+

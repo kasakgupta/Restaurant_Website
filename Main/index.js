@@ -44,3 +44,18 @@ window.addEventListener("resize", () => {
     mobileNav.classList.remove("open");
   }
 });
+
+//search
+document.getElementById('search-bar').addEventListener('input', function () {
+  const query = this.value.toLowerCase();
+  const menuItems = document.querySelectorAll('.food-menu-item');
+
+  menuItems.forEach(item => {
+      const title = item.querySelector('.food-title').textContent.toLowerCase();
+      if (title.includes(query)) {
+          item.style.display = ''; // Show the item
+      } else {
+          item.style.display = 'none'; // Hide the item
+      }
+  });
+});
