@@ -3,110 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Explore</title>
-    <link rel="stylesheet" href="../../Main/style.css">
-
+    <title>Italian Cuisine</title>
+    <link rel="stylesheet" href="./cuisineCSS.css">
+  <script src="./script.js" defer></script>
 
 </head>
 <body>
 <section id="food-menu">
-    <h2 class="food-menu-heading">Food Menu</h2>
+     <!-- Search Section -->
+     <div class="search-container">
+      <input type="text" id="search-input" placeholder="Search for a dish..." onkeyup="searchDish()">
+      <button onclick="searchDish()" class="search-btn">Search</button>
+    </div>
+    <h2 class="food-menu-heading">Authentic Italian Cuisine</h2>
+    <p class="food-menu-subheading">Indulge in the flavors of Italy with our expertly crafted dishes.</p>
+
     <div class="food-menu-container container">
-      <div class="food-menu-item">
-        <div class="food-img">
-          <img src="https://img.freepik.com/premium-photo/indian-food-square-post_1032986-201038.jpg" alt="" />
+        <!-- Pizza -->
+        <div class="food-menu-item">
+            <div class="food-img">
+                <img src="https://www.foodandwine.com/thmb/ncA14Wu7R7yMZUKevfqqLZQXU-s=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/pizza-margherita-FT-BLOG1218-1-2e244b3af81641bfa44b22c6465d0d2f.jpg" alt="Pizza Margherita" />
+            </div>
+            <div class="food-description">
+                <h2 class="food-title">Pizza Margherita</h2>
+                <p>
+                    A classic Italian favorite with fresh tomato sauce, mozzarella cheese, and a touch of fresh basil.
+                </p>
+                <p class="food-price">Price: &#8377; 399</p>
+                <button class="order-btn">Order Now</button>
+            </div>
         </div>
-        <div class="food-description">
-          <h2 class="food-title">Indian Cuisine</h2>
-          <p>
-          Indian cuisine is a rich blend of spices, flavors, and regional traditions.
-           From aromatic curries to tangy dosas, each dish offers a unique, unforgettable taste experience.
-          </p>
-          <p class="food-price">Price: &#8377; 55</p>
-          <a href="../Menu Page/Sub_Menu Page/IndianCuisine.php" target="_blank"> <button class="order-btn">Explore</button> </a>
-        </div>
-      </div>
 
-      <div class="food-menu-item">
-        <div class="food-img">
-          <img src="https://thumbs.dreamstime.com/b/italian-food-table-image-shows-full-delicious-theres-pizza-pasta-bread-more-all-arranged-beautiful-appetizing-323626017.jpg" alt="error" />
+        <!-- Pasta -->
+        <div class="food-menu-item">
+            <div class="food-img">
+                <img src="https://images.immediate.co.uk/production/volatile/sites/30/2023/03/pasta-primavera-1448824-e991b1f.jpg" alt="Pasta Primavera" />
+            </div>
+            <div class="food-description">
+                <h2 class="food-title">Pasta Primavera</h2>
+                <p>
+                    A delightful blend of pasta and fresh vegetables tossed in a light garlic and olive oil sauce.
+                </p>
+                <p class="food-price">Price: &#8377; 350</p>
+                <button class="order-btn">Order Now</button>
+            </div>
         </div>
-        <div class="food-description">
-          <h2 class="food-title">Italian Cuisine</h2>
-          <p>
-          Italian cuisine is all about fresh ingredients and simple, rich flavors. From pasta and pizza to risotto, each dish is a celebration of tradition and taste.
-          </p>
-          <p class="food-price">Price: &#8377; 430</p>
-          <a href="../Menu Page/Sub_Menu Page/ItalianCuisine.php" target="_blank"> <button class="order-btn">Explore</button> </a>
 
+        <!-- Risotto -->
+        <div class="food-menu-item">
+            <div class="food-img">
+                <img src="https://www.simplyrecipes.com/thmb/FqxItdI6qunlGvI1lCOJdybh1-Q=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Mushroom-Risotto-Lead-5b4f77de09d34b1e8094d6a0a70515f4.jpg" alt="Mushroom Risotto" />
+            </div>
+            <div class="food-description">
+                <h2 class="food-title">Mushroom Risotto</h2>
+                <p>
+                    A creamy and flavorful risotto made with Arborio rice, mushrooms, and Parmesan cheese.
+                </p>
+                <p class="food-price">Price: &#8377; 450</p>
+                <button class="order-btn">Order Now</button>
+            </div>
         </div>
-      </div>
-      <div class="food-menu-item">
-        <div class="food-img">
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKUZGiNnFa6F6H7hhw6SuVMm1wqJZtOthv6g&s" alt="" />
+
+        <!-- Tiramisu -->
+        <div class="food-menu-item">
+            <div class="food-img">
+                <img src="https://www.theflavorbender.com/wp-content/uploads/2019/12/Tiramisu-Featured-Image-1-500x500.jpg" alt="Tiramisu" />
+            </div>
+            <div class="food-description">
+                <h2 class="food-title">Tiramisu</h2>
+                <p>
+                    A classic Italian dessert with layers of coffee-soaked ladyfingers, mascarpone, and cocoa.
+                </p>
+                <p class="food-price">Price: &#8377; 300</p>
+                <button class="order-btn">Order Now</button>
+            </div>
         </div>
-        <div class="food-description">
-          <h2 class="food-title">Korean Cuisine</h2>
-          <p>
-          Korean cuisine is known for its bold flavors, featuring dishes like bulgogi and kimchi jjigae. It combines spicy, savory, and tangy elements, often served with a variety of banchan (side dishes)
-          </p>
-
-          <p class="food-price">Price: &#8377; 99</p>
-
-          <a href="../Menu Page/Sub_Menu Page/KoreanCuisine.php" target="_blank"> <button class="order-btn">Explore</button> </a>
-
-        </div>
-      </div>
-      <div class="food-menu-item">
-        <div class="food-img">
-          <img src="https://holytequila.com/wp-content/uploads/2022/05/history-of-mexican-food.jpg" alt="" />
-        </div>
-        <div class="food-description">
-          <h2 class="food-title">Mexican Cuisine</h2>
-          <p>
-          Mexican cuisine is vibrant and full of flavor, featuring dishes like tacos, enchiladas, and guacamole. With a blend of spices, herbs, and fresh ingredients, it offers a rich combination of savory, spicy, and tangy tastes.
-          </p>
-          <p class="food-price">Price: &#8377; 265</p>
-          <a href="../Menu Page/Sub_Menu Page/MexicanCuisine.php" target="_blank"> <button class="order-btn">Explore</button> </a>
-
-        </div>
-      </div>
-      <div class="food-menu-item">
-        <div class="food-img">
-          <img src="https://www.thespruceeats.com/thmb/D9hctWPH31A5oiQ34J4Hknc6x0Y=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-1042998066-518ca1d7f2804eb09039e9e42e91667c.jpg" alt="" />
-        </div>
-        <div class="food-description">
-          <h2 class="food-title">Thai Cuisine</h2>
-
-          <p>
-          Thai cuisine is known for its bold flavors, balancing sweet, sour, spicy, and savory. Popular dishes like pad thai, green curry, and tom yum soup highlight fresh herbs, spices, and vibrant ingredients.
-          </p>
-          <p class="food-price">Price: &#8377; 350</p>
-          <a href="../Menu Page/Sub_Menu Page/ThaiCuisine.php" target="_blank"> <button class="order-btn">Explore</button> </a>
-
-        </div>
-      </div>
-      <div class="food-menu-item">
-        <div class="food-img">
-          <img src="https://sukhis.com/app/uploads/2022/04/image3-4.jpg" alt="" />
-        </div>
-        <div class="food-description">
-          <h2 class="food-title">South Indian Cuisine</h2>
-          <p>
-          South Indian cuisine features flavorful dishes like dosa, idli, and sambar, with rice, lentils, and spices creating a balance of tangy, spicy, and savory flavors.
-          <p class="food-price">Price: &#8377; 599</p>
-          <a href="../Menu Page/Sub_Menu Page/SouthIndianCuisine.php" target="_blank"> <button class="order-btn">Explore</button> </a>
-
-        </div>
-      </div>
-
-
     </div>
+
+    <!-- Show More Button -->
     <div class="showMoreBtnDiv">
-      <a href="../Menu Page/menu.php" target="_blank"><button class="showMore-btn">Show More</button></a>
+        <a href="../Menu Page/menu.php" target="_blank"><button class="showMore-btn">View Full Menu</button></a>
     </div>
-
-
-  </section>
+</section>
 </body>
 </html>
