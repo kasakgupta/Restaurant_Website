@@ -11,47 +11,49 @@
 <body>
   <div class="login-container">
     <form id="loginForm" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="POST">
-      <h2 class="form-heading">Log In to Your Account</h2> <!-- Updated heading -->
+      <h2 class="form-heading">Log In to Your Account</h2>
       <div class="input-group">
         <label for="username">Username or Email:</label>
-        <input type="text" id="username" name="username" required />
+        <input type="text" id="username" name="username" required aria-label="Username or Email" />
       </div>
       <div class="input-group">
         <label for="password">Password:</label>
-        <input type="password" id="password" name="password" required />
+        <input type="password" id="password" name="password" required aria-label="Password" />
       </div>
       <div class="input-group">
         <label for="captcha">Enter CAPTCHA:</label>
-        <input type="text" id="captchaInput" name="captchaInput" required />
+        <input type="text" id="captchaInput" name="captchaInput" required aria-label="CAPTCHA Input" />
         <span id="captchaOutput"></span>
+        <span id="captchaError" style="color: red; display: none;">CAPTCHA not matched! Try again.</span>
       </div>
       <button type="submit">Login</button>
       <div class="links">
-        <p class="account-action">Don't have an account? <a href="./registeration.php">Sign Up</a></p> <!-- Updated link -->
+        <p class="account-action">Don't have an account? <a href="./registration.php">Sign Up</a></p>
         <p class="password-action"><a href="./forgot-password.php">Forgot Password?</a></p>
       </div>
     </form>
   </div>
 
   <script>
+    let generatedCaptcha = '';
+
     function generateCaptcha() {
-      let chars = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
-      let captcha = '';
+      const chars = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+      generatedCaptcha = '';
       for (let i = 0; i < 6; i++) {
-        let index = Math.floor(Math.random() * chars.length);
-        captcha += chars[index];
+        const index = Math.floor(Math.random() * chars.length);
+        generatedCaptcha += chars[index];
       }
-      document.getElementById('captchaOutput').innerText = captcha;
+      document.getElementById('captchaOutput').innerText = generatedCaptcha;
     }
 
-    function validateCaptcha() {
-      let userCaptcha = document.getElementById('captchaInput').value.trim();
-      let generatedCaptcha = document.getElementById('captchaOutput').innerText;
-      if (userCaptcha === generatedCaptcha) {
-        alert('CAPTCHA matched! Proceed with login.');
-      } else {
-        alert('CAPTCHA not matched! Try again.');
+    function validateCaptcha(event) {
+      const userCaptcha = document.getElementById('captchaInput').value.trim();
+      if (userCaptcha !== generatedCaptcha) {
+        document.getElementById('captchaError').style.display = 'block';
         event.preventDefault();
+      } else {
+        document.getElementById('captchaError').style.display = 'none';
       }
     }
 
