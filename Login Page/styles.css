@@ -1,93 +1,130 @@
-/* Add your styles here */
-
+/* General Styling */
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(45deg, #f5b700, #ff6347);
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #720455;
+  margin: 0;
 }
 
-.container {
+/* Container Styling */
+.login-container,
+.register-container {
   background-color: #fff;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-form {
-  display: flex;
-  flex-direction: column;
-}
-
-h2 {
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  width: 400px;
   text-align: center;
-  margin-bottom: 20px;
 }
 
+/* Form Heading */
+.form-heading {
+  font-size: 2rem;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  color: #ff6347; /* Using a food-related color */
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Added shadow effect */
+}
+
+/* Input Group Styling */
 .input-group {
   margin-bottom: 15px;
+  text-align: left;
 }
 
 label {
-  margin-bottom: 5px;
   font-weight: bold;
+  color: #333;
 }
 
 input {
-  padding: 8px;
+  padding: 10px;
   width: 100%;
-  border-radius: 5px;
-  border: 1px solid #ccc;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  font-size: 1rem;
 }
 
 button {
-  padding: 10px;
-  border: none;
-  border-radius: 5px;
-  background-color: #4caf50;
+  padding: 12px;
+  width: 100%;
+  background-color: #ff6347;
   color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
   cursor: pointer;
+  transition: background 0.3s ease;
 }
 
 button:hover {
-  background-color: #45a049;
+  background-color: #f5b700;
 }
 
-.signup-link,
-.login-link {
-  text-align: center;
+/* Links Styling */
+.links {
+  margin-top: 20px;
 }
 
-.signup-link a,
-.login-link a {
-  color: #4caf50;
+.links a {
+  color: #ff6347;
   text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: bold;
+  transition: all 0.3s ease;
 }
 
-.signup-link a:hover,
-.login-link a:hover {
+.links a:hover {
   text-decoration: underline;
 }
-/* For Succes Message  */
-.success-message {
-  color: #4caf50;
-  text-align: center;
-  margin-top: 15px;
-  font-weight: bold;
+
+/* Account Action Styling */
+.account-action {
+  font-size: 1.1rem;
+  margin-top: 10px;
 }
 
+.password-action {
+  font-size: 1rem;
+  margin-top: 10px;
+}
+
+.account-action a,
+.password-action a {
+  color: #ff6347;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.account-action a:hover,
+.password-action a:hover {
+  color: #f5b700;
+}
+
+/* CAPTCHA Output Styling */
 #captchaOutput {
-  display: inline-block;
-  padding: 8px;
+  padding: 10px;
   background-color: #f2f2f2;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  font-family: Arial, sans-serif;
-  font-size: 16px;
-  /* margin-left: 10px; */
-  margin: 20px auto;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  margin-top: 5px;
+  color: #333;
+}
+
+input[type="text"], input[type="password"] {
+  margin-top: 8px;
+}
+
+@media (max-width: 600px) {
+  .login-container,
+  .register-container {
+    width: 90%;
+    padding: 15px;
+  }
 }

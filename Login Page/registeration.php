@@ -1,32 +1,3 @@
-<?php
-include("database.php");
-?>
-
-<?php
-
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-  $username = $_POST['username'];
-  $email = $_POST['email'];
-  $password = password_hash($_POST['password'], PASSWORD_DEFAULT);
-
-  if (empty($username)) {
-    echo "Please Enter a Username";
-  } elseif (empty($email)) {
-    echo "Please Enter an Email";
-  } elseif (empty($_POST['password'])) {
-    echo "Please Enter a Password";
-  } else {
-    $sql = "INSERT INTO users (username, email, password) VALUES ('$username', '$email', '$password')";
-
-    try {
-      mysqli_query($conn, $sql);
-      echo "<script>alert('Registration successful!'); window.location.href = './login.php';</script>";
-    } catch (mysqli_sql_exception $e) {
-      echo "Some error occurred: " . $e->getMessage();
-    }
-  }
-}
-?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -38,9 +9,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 </head>
 
 <body>
-  <div class="container">
+  <div class="register-container">
     <form action="<?php htmlspecialchars($_SERVER["PHP_SELF"]) ?>" method="POST">
-      <h2>Register for Restaurant</h2>
+      <h2 class="form-heading">Create Your Account</h2> <!-- Updated heading -->
       <div class="input-group">
         <label for="username">Username:</label>
         <input type="text" id="username" name="username" required />
@@ -58,14 +29,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <input type="password" id="confirm_password" name="confirm_password" required />
       </div>
       <button type="submit">Register</button>
-      <div class="login-link">
-        <p>Already have an account? <a href="./login.php">Login</a></p>
+      <div class="links">
+        <p class="account-action">Already have an account? <a href="./login.php">Log In</a></p> <!-- Updated link -->
       </div>
     </form>
   </div>
 </body>
 
 </html>
-<?php
-mysqli_close($conn);
-?>
