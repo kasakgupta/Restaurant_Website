@@ -22,7 +22,7 @@
         <!-- Pad Thai -->
         <div class="food-menu-item">
             <div class="food-img">
-                <img src="https://www.recipetineats.com/wp-content/uploads/2018/06/Pad-Thai_0.jpg" alt="Pad Thai" />
+                <img src="https://www.kitchensanctuary.com/wp-content/uploads/2019/07/Pad-Thai-square-FS-29.jpg" alt="Pad Thai" />
             </div>
             <div class="food-description">
                 <h2 class="food-title">Pad Thai</h2>
@@ -37,7 +37,7 @@
         <!-- Green Curry -->
         <div class="food-menu-item">
             <div class="food-img">
-                <img src="https://www.cookingclassy.com/wp-content/uploads/2019/05/thai-green-curry-12.jpg" alt="Green Curry" />
+                <img src="https://www.foodandwine.com/thmb/CYwqpa65DfTatFI2Zmz8WTddjaI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Green-Curry-FT-RECIPE0523-6efaa826a9f4406cb8fbcb445667ceda.jpg" alt="Green Curry" />
             </div>
             <div class="food-description">
                 <h2 class="food-title">Green Curry</h2>
@@ -52,7 +52,7 @@
         <!-- Tom Yum Soup -->
         <div class="food-menu-item">
             <div class="food-img">
-                <img src="https://www.recipetineats.com/wp-content/uploads/2019/09/Tom-Yum-Soup_3.jpg" alt="Tom Yum Soup" />
+                <img src="https://hot-thai-kitchen.com/wp-content/uploads/2013/03/tom-yum-goong-blog.jpg" alt="Tom Yum Soup" />
             </div>
             <div class="food-description">
                 <h2 class="food-title">Tom Yum Soup</h2>
@@ -67,7 +67,7 @@
         <!-- Mango Sticky Rice -->
         <div class="food-menu-item">
             <div class="food-img">
-                <img src="https://www.simplyrecipes.com/thmb/sVJ5uhvExj6MeSw4jjzPtLh7pDQ=/960x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Mango-Sticky-Rice-LEAD-04-144872fd1c5f4f8cb29384587b5a373e.jpg" alt="Mango Sticky Rice" />
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRN35wnHmrY5h14DChWbV-aPYvwBoS0jfvp-w&s" alt="Mango Sticky Rice" />
             </div>
             <div class="food-description">
                 <h2 class="food-title">Mango Sticky Rice</h2>
@@ -82,7 +82,7 @@
         <!-- Som Tum (Papaya Salad) -->
         <div class="food-menu-item">
             <div class="food-img">
-                <img src="https://www.seriouseats.com/thmb/oZTWScNPE6ePKaH9nY39MQ9TTmQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/som-tum-thai-papaya-salad-recipe-hero-2c7cfb482eed487587de2c825fa59f26.jpg" alt="Som Tum" />
+                <img src="https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/AB343849-D77F-4931-AD14-852B537B09E8/Derivates/ACEB01EA-0393-4FEE-87A0-F1C974B3BCD1.jpg" alt="Som Tum" />
             </div>
             <div class="food-description">
                 <h2 class="food-title">Som Tum (Papaya Salad)</h2>

@@ -22,7 +22,7 @@
         <!-- Kimchi -->
         <div class="food-menu-item">
             <div class="food-img">
-                <img src="https://cdn.tasteatlas.com/images/dishes/d60bb5bc555b4d89b87278fcabb4882e.jpg" alt="Kimchi" />
+                <img src="https://sugaryums.com/wp-content/uploads/2023/03/Baechu-Kimchi-Cabbage-Kimchi-Recipe-SugarYums-17.jpg" alt="Kimchi" />
             </div>
             <div class="food-description">
                 <h2 class="food-title">Kimchi</h2>
@@ -37,7 +37,7 @@
         <!-- Bibimbap -->
         <div class="food-menu-item">
             <div class="food-img">
-                <img src="https://www.feastingathome.com/wp-content/uploads/2020/06/Bibimbap-Recipe-9-1.jpg" alt="Bibimbap" />
+                <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Dolsot-bibimbap.jpg" alt="Bibimbap" />
             </div>
             <div class="food-description">
                 <h2 class="food-title">Bibimbap</h2>
@@ -52,7 +52,7 @@
         <!-- Bulgogi -->
         <div class="food-menu-item">
             <div class="food-img">
-                <img src="https://rasamalaysia.com/wp-content/uploads/2021/05/bulgogi-thumb.jpg" alt="Bulgogi" />
+                <img src="https://static01.nyt.com/images/2023/11/14/multimedia/JM-Bulgogi-qmfj/JM-Bulgogi-qmfj-superJumbo.jpg" alt="Bulgogi" />
             </div>
             <div class="food-description">
                 <h2 class="food-title">Bulgogi</h2>
@@ -67,7 +67,7 @@
         <!-- Japchae -->
         <div class="food-menu-item">
             <div class="food-img">
-                <img src="https://koreanbapsang.com/wp-content/uploads/2019/02/DSC_3273-e1549598183640.jpg" alt="Japchae" />
+                <img src="https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_1:1/k%2FPhoto%2FRecipes%2F2023-01-Japchae%2F11-JAPCHAE-018" alt="Japchae" />
             </div>
             <div class="food-description">
                 <h2 class="food-title">Japchae</h2>
@@ -82,7 +82,7 @@
         <!-- Tteokbokki -->
         <div class="food-menu-item">
             <div class="food-img">
-                <img src="https://mykoreankitchen.com/wp-content/uploads/2015/02/1.-Tteokbokki.jpg" alt="Tteokbokki" />
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSflz5_Oq9zOrxBQ--VA4Yr0WYNaZ9sZUKf8Q&s" alt="Tteokbokki" />
             </div>
             <div class="food-description">
                 <h2 class="food-title">Tteokbokki</h2>
