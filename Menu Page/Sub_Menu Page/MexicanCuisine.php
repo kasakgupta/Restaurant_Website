@@ -99,7 +99,7 @@
 
     <!-- Show More Button -->
     <div class="showMoreBtnDiv">
-      <a href="../Menu Page/menu.php" target="_blank"><button class="showMore-btn">View Full Menu</button></a>
+    <a href="../menu.php" target="_blank"><button class="showMore-btn">View Full Menu</button></a>
     </div>
   </section>
 </body>
