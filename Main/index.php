@@ -227,10 +227,10 @@ mysqli_close($conn);
       </div>
     </div>
 
-    <!-- South Indian Cuisine -->
+    <!-- Japenese Cuisine -->
     <div class="food-menu-item">
   <div class="food-img">
-    <img src="https://www.japanese-food.org/wp-content/uploads/2020/02/japanese-sushi-dishes.jpg" alt="Japanese Cuisine" />
+    <img src="https://thedl.ie/wp-content/uploads/2024/03/japanese-food-traditions-1024x683.jpg" alt="Japanese Cuisine" />
   </div>
   <div class="food-description">
     <h2 class="food-title">Japanese Cuisine</h2>
