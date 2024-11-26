@@ -2,9 +2,7 @@
 
 $db_server = "localhost";
 $db_user = "root";
-// $db_pass = "Kasak@sql12";
 $db_pass = "";
-
 $db_name = "restaurantdb";
 $conn = ""; 
 

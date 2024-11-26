@@ -1,130 +1,139 @@
-/* General Styling */
+/* General reset and body styling */
 body {
-  font-family: 'Arial', sans-serif;
-  background: linear-gradient(45deg, #f5b700, #ff6347);
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  margin: 0;
+  background: linear-gradient(135deg, #4caf50, #2e7d32);
+  color: #333;
 }
 
-/* Container Styling */
-.login-container,
-.register-container {
+/* Main container styling */
+.container {
   background-color: #fff;
-  border-radius: 12px;
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
   padding: 30px;
-  width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+      transform: translateY(-10px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+/* Form styling */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
   text-align: center;
+  color: #2e7d32;
+  font-size: 24px;
+  margin-bottom: 20px;
 }
 
-/* Form Heading */
-.form-heading {
-  font-size: 2rem;
-  font-family: 'Courier New', Courier, monospace;
-  font-weight: bold;
-  color: #ff6347; /* Using a food-related color */
-  text-transform: uppercase;
-  margin-bottom: 30px;
-  letter-spacing: 2px;
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Added shadow effect */
-}
-
-/* Input Group Styling */
+/* Input fields and labels */
 .input-group {
   margin-bottom: 15px;
-  text-align: left;
 }
 
 label {
+  font-size: 14px;
   font-weight: bold;
-  color: #333;
+  margin-bottom: 5px;
+  display: block;
+  color: #555;
 }
 
 input {
   padding: 10px;
   width: 100%;
-  border-radius: 8px;
-  border: 1px solid #ddd;
-  font-size: 1rem;
-}
-
-button {
-  padding: 12px;
-  width: 100%;
-  background-color: #ff6347;
-  color: #fff;
-  border: none;
-  border-radius: 8px;
-  font-size: 1.1rem;
-  cursor: pointer;
-  transition: background 0.3s ease;
-}
-
-button:hover {
-  background-color: #f5b700;
-}
-
-/* Links Styling */
-.links {
-  margin-top: 20px;
-}
-
-.links a {
-  color: #ff6347;
-  text-decoration: none;
-  font-size: 1.1rem;
-  font-weight: bold;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #333;
   transition: all 0.3s ease;
 }
 
-.links a:hover {
+input:focus {
+  border-color: #4caf50;
+  outline: none;
+  box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+}
+
+/* Captcha display */
+#captchaOutput {
+  display: block;
+  padding: 10px;
+  background-color: #e8f5e9;
+  border: 1px dashed #4caf50;
+  border-radius: 4px;
+  font-size: 16px;
+  text-align: center;
+  font-family: 'Courier New', monospace;
+  margin-top: 10px;
+}
+
+/* Buttons */
+button {
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4caf50;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Links */
+.signup-link {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.signup-link a {
+  color: #2e7d32;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.signup-link a:hover {
   text-decoration: underline;
 }
 
-/* Account Action Styling */
-.account-action {
-  font-size: 1.1rem;
-  margin-top: 10px;
-}
-
-.password-action {
-  font-size: 1rem;
-  margin-top: 10px;
-}
-
-.account-action a,
-.password-action a {
-  color: #ff6347;
+/* Error and alert messages */
+.success-message {
+  color: #4caf50;
   font-weight: bold;
-  transition: color 0.3s ease;
+  text-align: center;
+  margin-top: 15px;
 }
 
-.account-action a:hover,
-.password-action a:hover {
-  color: #f5b700;
-}
-
-/* CAPTCHA Output Styling */
-#captchaOutput {
-  padding: 10px;
-  background-color: #f2f2f2;
-  border-radius: 5px;
-  font-size: 1.2rem;
-  margin-top: 5px;
-  color: #333;
-}
-
-input[type="text"], input[type="password"] {
-  margin-top: 8px;
-}
-
-@media (max-width: 600px) {
-  .login-container,
-  .register-container {
-    width: 90%;
-    padding: 15px;
-  }
+.error-message {
+  color: #e53935;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 15px;
 }
