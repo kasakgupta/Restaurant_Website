@@ -12,8 +12,8 @@
 
 <body>
   <section id="food-menu">
-       <!-- Search Section -->
-       <div class="search-container">
+    <!-- Search Section -->
+    <div class="search-container">
       <input type="text" id="search-input" placeholder="Search for a dish..." onkeyup="searchDish()">
       <button onclick="searchDish()" class="search-btn">Search</button>
     </div>
@@ -24,7 +24,7 @@
       <!-- Tacos -->
       <div class="food-menu-item">
         <div class="food-img">
-          <img src="https://www.simplyrecipes.com/thmb/O8PxMBNLP48LLYmgPQ6YhGzRUig=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Beef-Tacos-LEAD-3b-3dd2a7ac4c244b4ba22b7603c658ca37.jpg" alt="Tacos" />
+          <img src="https://www.allrecipes.com/thmb/vG-of0Xa0W0eodSXPWV1KXD009U=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/70935-taqueria-style-tacos-mfs-3x2-35-9145991a0ef94ceb8be05ae8d6be4f0f.jpg" alt="Tacos" />
         </div>
         <div class="food-description">
           <h2 class="food-title">Tacos</h2>
@@ -39,7 +39,7 @@
       <!-- Enchiladas -->
       <div class="food-menu-item">
         <div class="food-img">
-          <img src="https://www.acouplecooks.com/wp-content/uploads/2020/03/Enchiladas-007.jpg" alt="Enchiladas" />
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Enchilada_Rice_Beans.jpg/640px-Enchilada_Rice_Beans.jpg" alt="Enchiladas" />
         </div>
         <div class="food-description">
           <h2 class="food-title">Enchiladas</h2>
@@ -54,7 +54,7 @@
       <!-- Guacamole -->
       <div class="food-menu-item">
         <div class="food-img">
-          <img src="https://downshiftology.com/wp-content/uploads/2019/04/Guacamole-Recipe-6.jpg" alt="Guacamole" />
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8J9EV-vOS0cdm75JVqXb6YGaBYC2ELTQvzw&s" alt="Guacamole" />
         </div>
         <div class="food-description">
           <h2 class="food-title">Guacamole</h2>
@@ -69,7 +69,7 @@
       <!-- Churros -->
       <div class="food-menu-item">
         <div class="food-img">
-          <img src="https://www.cookingclassy.com/wp-content/uploads/2020/05/churros-19.jpg" alt="Churros" />
+          <img src="https://cdn.zeptonow.com/production///tr:w-600,ar-100-100,pr-true,f-auto,q-80/web/recipes/churros-con-chocolate.png" alt="Churros" />
         </div>
         <div class="food-description">
           <h2 class="food-title">Churros</h2>
@@ -84,7 +84,7 @@
       <!-- Quesadillas -->
       <div class="food-menu-item">
         <div class="food-img">
-          <img src="https://cookieandkate.com/images/2021/04/quesadilla-recipe-3-768x1153.jpg" alt="Quesadillas" />
+          <img src="https://www.simplyrecipes.com/thmb/S77yyGItsM98kjwNacwU0hC9XpI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Quesadilla-LEAD-4-523a569564b4453484be4cdf05ce0d6a.jpg" alt="Quesadillas" />
         </div>
         <div class="food-description">
           <h2 class="food-title">Quesadillas</h2>
@@ -99,7 +99,7 @@
 
     <!-- Show More Button -->
     <div class="showMoreBtnDiv">
-      <a href="../Menu Page/menu.php" target="_blank"><button class="showMore-btn">View Full Menu</button></a>
+      <a href="../menu.php" target="_blank"><button class="showMore-btn">View Full Menu</button></a>
     </div>
   </section>
 </body>

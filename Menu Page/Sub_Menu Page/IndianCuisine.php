@@ -40,7 +40,7 @@
       <!-- Add More Dishes Here -->
       <div class="food-menu-item">
         <div class="food-img">
-          <img src="https://example.com/biryani.jpg" alt="Hyderabadi Biryani" />
+          <img src="https://t4.ftcdn.net/jpg/05/81/48/89/360_F_581488930_jSWEv0Pd7fXqvV7llro7YCD3l0JfHdEA.jpg" alt="Hyderabadi Biryani" />
         </div>
         <div class="food-description">
           <h2 class="food-title">Hyderabadi Biryani</h2>
@@ -54,7 +54,7 @@
 
       <div class="food-menu-item">
         <div class="food-img">
-          <img src="https://example.com/idli.jpg" alt="Idli Sambar" />
+          <img src="https://media.istockphoto.com/id/1306083224/photo/idly-or-idli.jpg?s=612x612&w=0&k=20&c=cVpLEs4L3je0_zEFQ38BeZRjBLYQ1YGr9oTIdjhAbTY=" alt="Idli Sambar" />
         </div>
         <div class="food-description">
           <h2 class="food-title">Idli Sambar</h2>
@@ -68,7 +68,7 @@
 
       <div class="food-menu-item">
         <div class="food-img">
-          <img src="https://example.com/paneer-tikka.jpg" alt="Paneer Tikka" />
+          <img src="https://t4.ftcdn.net/jpg/08/24/35/61/360_F_824356146_wskBHp7Ft3lRXcF37fCWRFUYtZESvVSs.jpg" alt="Paneer Tikka" />
         </div>
         <div class="food-description">
           <h2 class="food-title">Paneer Tikka</h2>
@@ -82,7 +82,7 @@
 
       <div class="food-menu-item">
         <div class="food-img">
-          <img src="https://example.com/samosa.jpg" alt="Samosa" />
+          <img src="https://cdn.pixabay.com/photo/2024/01/29/21/50/ai-generated-8540840_640.jpg" alt="Samosa" />
         </div>
         <div class="food-description">
           <h2 class="food-title">Samosa</h2>
@@ -97,7 +97,7 @@
 
     <!-- Show More Button -->
     <div class="showMoreBtnDiv">
-      <a href="../Menu Page/menu.php" target="_blank">
+    <a href="../menu.php" target="_blank">
         <button class="showMore-btn">Show Full Menu</button>
       </a>
     </div>

@@ -24,7 +24,7 @@
             <!-- Sushi -->
             <div class="food-menu-item">
                 <div class="food-img">
-                    <img src="https://www.justonecookbook.com/wp-content/uploads/2021/06/Sushi-Roll-Recipe-768x1024.jpg" alt="Sushi" />
+                    <img src="https://www.licious.in/blog/wp-content/uploads/2022/04/shutterstock_1617156526-min.jpg" alt="Sushi" />
                 </div>
                 <div class="food-description">
                     <h2 class="food-title">Sushi Platter</h2>
@@ -39,7 +39,7 @@
             <!-- Ramen -->
             <div class="food-menu-item">
                 <div class="food-img">
-                    <img src="https://www.recipetineats.com/wp-content/uploads/2020/05/Ramen_6.jpg" alt="Ramen" />
+                    <img src="https://www.budgetbytes.com/wp-content/uploads/2019/04/6-Ways-to-Upgrade-Instant-Ramen-eating-1200.jpg" alt="Ramen" />
                 </div>
                 <div class="food-description">
                     <h2 class="food-title">Traditional Ramen</h2>
@@ -54,7 +54,7 @@
             <!-- Tempura -->
             <div class="food-menu-item">
                 <div class="food-img">
-                    <img src="https://www.justonecookbook.com/wp-content/uploads/2011/04/Shrimp-Tempura.jpg" alt="Tempura" />
+                    <img src="https://www.thespruceeats.com/thmb/CkzlxmRyeK8IUrMrHrbq73RX4g4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/basic-tempura-for-fish-and-seafood-1300531-hero-01-bbd91b4ee23940749fec5ab7693eadcc.jpg" alt="Tempura" />
                 </div>
                 <div class="food-description">
                     <h2 class="food-title">Crispy Tempura</h2>
@@ -69,7 +69,7 @@
             <!-- Teriyaki Chicken -->
             <div class="food-menu-item">
                 <div class="food-img">
-                    <img src="https://www.recipetineats.com/wp-content/uploads/2019/06/Chicken-Teriyaki_9.jpg" alt="Teriyaki Chicken" />
+                    <img src="https://www.wholesomeyum.com/wp-content/uploads/2023/03/wholesomeyum-Teriyaki-Chicken-Recipe-8.jpg" alt="Teriyaki Chicken" />
                 </div>
                 <div class="food-description">
                     <h2 class="food-title">Teriyaki Chicken</h2>
@@ -84,7 +84,7 @@
             <!-- Matcha Ice Cream -->
             <div class="food-menu-item">
                 <div class="food-img">
-                    <img src="https://www.justonecookbook.com/wp-content/uploads/2013/05/Matcha-Ice-Cream-New-2.jpg" alt="Matcha Ice Cream" />
+                    <img src="https://www.rotinrice.com/wp-content/uploads/2011/08/MatchaIceCream-1.jpg" alt="Matcha Ice Cream" />
                 </div>
                 <div class="food-description">
                     <h2 class="food-title">Matcha Ice Cream</h2>
@@ -99,7 +99,7 @@
 
         <!-- Show More Button -->
         <div class="showMoreBtnDiv">
-            <a href="../Menu Page/menu.php" target="_blank"><button class="showMore-btn">View Full Menu</button></a>
+        <a href="../menu.php" target="_blank"><button class="showMore-btn">View Full Menu</button></a>
         </div>
     </section>
 </body>

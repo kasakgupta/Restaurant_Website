@@ -22,7 +22,7 @@
         <!-- Pizza -->
         <div class="food-menu-item">
             <div class="food-img">
-                <img src="https://www.foodandwine.com/thmb/ncA14Wu7R7yMZUKevfqqLZQXU-s=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/pizza-margherita-FT-BLOG1218-1-2e244b3af81641bfa44b22c6465d0d2f.jpg" alt="Pizza Margherita" />
+                <img src="https://t3.ftcdn.net/jpg/04/44/86/70/360_F_444867086_79U7yvSiS6LaEWo8nN0ZYX8CJ7NhvhJh.jpg" alt="Pizza Margherita" />
             </div>
             <div class="food-description">
                 <h2 class="food-title">Pizza Margherita</h2>
@@ -37,7 +37,7 @@
         <!-- Pasta -->
         <div class="food-menu-item">
             <div class="food-img">
-                <img src="https://images.immediate.co.uk/production/volatile/sites/30/2023/03/pasta-primavera-1448824-e991b1f.jpg" alt="Pasta Primavera" />
+                <img src="https://i.guim.co.uk/img/media/cb683d50e1a7141d4ac294bfa80e8df8a57168b2/604_1535_2669_2669/master/2669.jpg?width=700&quality=85&auto=format&fit=max&s=7f0a5c7fe097072a390ba8752b070fa1" alt="Pasta Primavera" />
             </div>
             <div class="food-description">
                 <h2 class="food-title">Pasta Primavera</h2>
@@ -52,7 +52,7 @@
         <!-- Risotto -->
         <div class="food-menu-item">
             <div class="food-img">
-                <img src="https://www.simplyrecipes.com/thmb/FqxItdI6qunlGvI1lCOJdybh1-Q=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Mushroom-Risotto-Lead-5b4f77de09d34b1e8094d6a0a70515f4.jpg" alt="Mushroom Risotto" />
+                <img src="https://media.istockphoto.com/id/1368433094/photo/risotto-with-mushrooms-cheese-and-thyme-vegetarian-food-italian-food.jpg?s=612x612&w=0&k=20&c=VW3ZwcvFVeiF8DCXtyGH-QHd_opB_U799dZuiz8fgpU=" />
             </div>
             <div class="food-description">
                 <h2 class="food-title">Mushroom Risotto</h2>
@@ -67,7 +67,7 @@
         <!-- Tiramisu -->
         <div class="food-menu-item">
             <div class="food-img">
-                <img src="https://www.theflavorbender.com/wp-content/uploads/2019/12/Tiramisu-Featured-Image-1-500x500.jpg" alt="Tiramisu" />
+                <img src="https://t3.ftcdn.net/jpg/03/28/01/60/360_F_328016056_Ro67OjyMT2dnGFL6v4VKKoAkIcakElTW.jpg" alt="Tiramisu" />
             </div>
             <div class="food-description">
                 <h2 class="food-title">Tiramisu</h2>
@@ -82,7 +82,7 @@
 
     <!-- Show More Button -->
     <div class="showMoreBtnDiv">
-        <a href="../Menu Page/menu.php" target="_blank"><button class="showMore-btn">View Full Menu</button></a>
+    <a href="../menu.php" target="_blank"><button class="showMore-btn">View Full Menu</button></a>
     </div>
 </section>
 </body>
