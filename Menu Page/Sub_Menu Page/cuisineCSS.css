@@ -152,7 +152,17 @@ body {
 }
 
 .showMore-btn {
-  font-size: 1.3rem;
+  font-size: 0.9rem;
+  color: #fff;
+}
+
+button.showMore-btn{
+  background-color: #ff6347;
+ border: none;
+ border-radius: 8px;
+ cursor: pointer;
+ padding: 8px 15px;
+ text-transform: uppercase;
 }
 
 /* Animations */
