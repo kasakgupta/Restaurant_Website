@@ -331,15 +331,16 @@ mysqli_close($conn);
           <span class="fa fa-star"></span>
         </div>
         <p class="testimonial-text">
-          "I had a fantastic dining experience! The food was fresh, flavorful,
-          and beautifully presented. The atmosphere was delightful, perfect
-          for a family dinner. Highly recommended!"
+          "Exceptional service and delicious food! I ordered their special
+          pasta dish, and it was beyond my expectations. The ambiance was
+          cozy, and the staff was incredibly friendly. Definitely coming
+          back!"
         </p>
       </div>
       <div class="testimonial-box">
         <div class="customer-detail">
           <div class="customer-photo">
-            <img src="../Images/Customer 5.jpg" alt="" />
+            <img src="../Images/Customer 2.jpg" alt="" />
             <p class="customer-name">Diksha</p>
           </div>
         </div>
@@ -387,7 +388,7 @@ mysqli_close($conn);
           </div> -->
           
           
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSfIkyjc65_DXu7t-E7d0Apm0EZ99igUo_zMMSmuG7n-GJGKVQ/viewform?usp=sf_link">
+          <a href="https://forms.gle/3NqYGE2or61N8aQw9">
             <!-- <button type="submit" class="btn btn-primary">Submit</button> -->
             Give a Feedback
           </a>
