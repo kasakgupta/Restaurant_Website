@@ -27,7 +27,7 @@
                     </div>
                 </div>
                 <p class="message">
-                    "Had an amazing time at AIT Restaurant. Impeccable service, cozy ambiance, and dishes that were both delicious and beautifully presented. The Masala Dosa is a must-try! Though slightly pricey, the overall experience makes it worth every penny. Can't wait to return for another delightful meal. "
+                    "Had an amazing time at IGDTUW Restaurant. Impeccable service, cozy ambiance, and dishes that were both delicious and beautifully presented. The Masala Dosa is a must-try! Though slightly pricey, the overall experience makes it worth every penny. Can't wIGDTUW to return for another delightful meal. "
                 </p>
             </div>
 
@@ -49,7 +49,7 @@
                     </div>
                 </div>
                 <p class="message">
-                    "Dined at AIT Restaurant and was blown away. Exceptional service, a charming atmosphere, and dishes that redefine taste. The chef's creativity shines in every bite. Pricey but worth it for the exquisite experience. A must-visit for food enthusiasts. Can't recommend it enough!" </p>
+                    "Dined at IGDTUW Restaurant and was blown away. Exceptional service, a charming atmosphere, and dishes that redefine taste. The chef's creativity shines in every bite. Pricey but worth it for the exquisite experience. A must-visit for food enthusiasts. Can't recommend it enough!" </p>
             </div>
 
 
@@ -67,7 +67,7 @@
                     </div>
                 </div>
                 <p class="message">
-                    "AIT Restaurant is a hidden gem! Impeccable service, inviting ambiance, and the menu is a gastronomic delight. The fusion of flavors in their dishes, especially the Masala Dosa, is unparalleled. While prices lean towards the higher side, the extraordinary culinary experience justifies every penny. AIT is now my go-to for a memorable dining experience."
+                    "IGDTUW Restaurant is a hidden gem! Impeccable service, inviting ambiance, and the menu is a gastronomic delight. The fusion of flavors in their dishes, especially the Masala Dosa, is unparalleled. While prices lean towards the higher side, the extraordinary culinary experience justifies every penny. IGDTUW is now my go-to for a memorable dining experience."
                 </p>
             </div>
 
@@ -90,7 +90,7 @@
                     </div>
                 </div>
                 <p class="message">
-                    "AIT Restaurant is a culinary masterpiece. The ambiance is chic, service top-notch, and the menu is a journey of taste. The Butter Chicken is a revelation. Though prices are a bit steep, the impeccable flavors and dining experience make it a worthwhile indulgence. AIT has secured its spot as my favorite dining destination."
+                    "IGDTUW Restaurant is a culinary masterpiece. The ambiance is chic, service top-notch, and the menu is a journey of taste. The Butter Chicken is a revelation. Though prices are a bit steep, the impeccable flavors and dining experience make it a worthwhile indulgence. IGDTUW has secured its spot as my favorite dining destination."
                 </p>
             </div>
 
@@ -108,7 +108,7 @@
                     </div>
                 </div>
                 <p class="message">
-                    "AIT exceeded expectations! From the warm welcome to the last bite, it was flawless. The eclectic menu, especially the Rogan Josh, is a taste sensation. The atmosphere is cozy, service is exceptional, though prices are a tad high, the culinary journey is worth every dime. AIT, where every meal is a celebration."
+                    "IGDTUW exceeded expectations! From the warm welcome to the last bite, it was flawless. The eclectic menu, especially the Rogan Josh, is a taste sensation. The atmosphere is cozy, service is exceptional, though prices are a tad high, the culinary journey is worth every dime. IGDTUW, where every meal is a celebration."
                 </p>
             </div>
 
@@ -128,7 +128,7 @@
                     </div>
                 </div>
                 <p class="message">
-                    "AIT is a culinary haven! The ambiance radiates sophistication, service is impeccable, and each dish is a masterpiece. The Tandoori Chicken is a symphony of flavors. While prices lean towards the higher side, the gastronomic adventure makes it a worthwhile splurge. AIT, where passion for food meets perfection"
+                    "IGDTUW is a culinary haven! The ambiance radiates sophistication, service is impeccable, and each dish is a masterpiece. The Tandoori Chicken is a symphony of flavors. While prices lean towards the higher side, the gastronomic adventure makes it a worthwhile splurge. IGDTUW, where passion for food meets perfection"
                 </p>
             </div>
 
@@ -149,7 +149,7 @@
                     </div>
                 </div>
                 <p class="message">
-                    "AIT is a flavor paradise! The ambiance is stylish, service is exceptional, and the menu boasts innovative delights. The Butter Chicken is a taste revelation. Though prices are on the higher side, the culinary journey is an investment in sheer delight. AIT, my go-to for an unforgettable dining escapade! "
+                    "IGDTUW is a flavor paradise! The ambiance is stylish, service is exceptional, and the menu boasts innovative delights. The Butter Chicken is a taste revelation. Though prices are on the higher side, the culinary journey is an investment in sheer delight. IGDTUW, my go-to for an unforgettable dining escapade! "
                 </p>
             </div>
 
